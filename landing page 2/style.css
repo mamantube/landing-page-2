@@ -98,3 +98,19 @@
   justify-content: flex-end;
   margin-top: 50px;
 }
+
+.recomend {
+  position: absolute;
+  left: 50%;
+  bottom:20px;
+  transform: translateX(-50px);
+  display: flex;
+}
+
+.recomend-list {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
