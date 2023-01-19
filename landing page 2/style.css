@@ -107,10 +107,18 @@
   display: flex;
 }
 
-.recomend-list {
+.recomend li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.recomend li img {
+  max-width: 40px;
+}
+
+.recomend li:hover {
+  transform: translateY(-15px);
 }
